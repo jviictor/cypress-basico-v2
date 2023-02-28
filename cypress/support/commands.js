@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Cypress.Commands.add('fillMandatoryFieldsAndSubmit', function(){
     cy.get('#firstName').type('joao');
         cy.get('#lastName').type('santos');
@@ -7,7 +7,7 @@ Cypress.Commands.add('fillMandatoryFieldsAndSubmit', function(){
         cy.contains('button','Enviar').click();
 
 })
-=======
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -33,4 +33,4 @@ Cypress.Commands.add('fillMandatoryFieldsAndSubmit', function(){
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
->>>>>>> 19e144af6b81b05080f73f6250953870f3ca9905
+
